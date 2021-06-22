@@ -1,0 +1,26 @@
+modLoader="javafml" 
+loaderVersion="[36,)" 
+issueTrackerURL="https://github.com/noobanidus/boulevard/issues"
+license="https://github.com/noobanidus/boulevard/blob/master/LICENSE"
+[[mods]] 
+modId="boulevard" 
+version="${version}"
+displayName="Boulevard of Broken Loot"
+displayURL="https://minecraft.curseforge.com/projects/boulevard"
+credits=""
+authors="Noobanidus"
+description='''
+Causes chests to generate loot when being broken.
+'''
+[[dependencies.boulevard]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.boulevard]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,)"
+    ordering="NONE"
+    side="BOTH"

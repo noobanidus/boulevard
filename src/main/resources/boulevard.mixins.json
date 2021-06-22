@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "noobanidus.mods.boulevard.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "boulevard.refmap.json",
+  "mixins": [
+    "MixinChest"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
