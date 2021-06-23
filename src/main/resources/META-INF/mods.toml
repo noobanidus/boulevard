@@ -10,7 +10,7 @@ displayURL="https://minecraft.curseforge.com/projects/boulevard"
 credits=""
 authors="Noobanidus"
 description='''
-Causes chests to generate loot when being broken.
+Causes chests and other containers with loot tables to generate loot when being broken, if loot hasn't been generated.
 '''
 [[dependencies.boulevard]]
     modId="forge"
